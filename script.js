@@ -11,10 +11,11 @@ button.addEventListener(
     if (dayExist) {
       alert("Dia ja incluso!")
       return
+    } else {
+      alert("dia adicionado com sucesso ✅")
     }
 
     nlwSetup.addDay(today)
-    alert("dia adicionado com sucesso ✅")
   })
 )
 form.addEventListener(
