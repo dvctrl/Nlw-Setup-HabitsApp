@@ -5,7 +5,8 @@ const button = document.querySelector("header button")
 button.addEventListener(
   "click",
   (addButtonClick = () => {
-    const today = new Date().toLocaleDateString("pt-br").slice(0, -5)
+    /* const today = new Date().toLocaleDateString("pt-br").slice(0, -5) */
+    const today = '25/01'
     const dayExist = nlwSetup.dayExists(today)
 
     if (dayExist) {
